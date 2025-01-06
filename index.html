@@ -4,60 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="">LIFESTYLE</a>
-            <a href="">PHOTODIARY</a>
-            <a href="">MUSIC</a>
-            <a href="">TRAVEL</a>
+    <header class="header">
+        <nav class="navigation">
+            <a class="navigation-link navigation-link__active" href="#">LIFESTYLE</a>
+            <a class="navigation-link" href="#">PHOTODIARY</a>
+            <a class="navigation-link" href="#">MUSIC</a>
+            <a class="navigation-link" href="#">TRAVEL</a>
         </nav>
     </header>
 
     <main>
-        <section>
-            <div>
-                <article>
-                    <img src="./img/1 1.jpg" alt="">
-                    <h3>LIFESTYLE</h3>
-                    <h2>More than just a music festival</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laboriosam cumque aspernatur iusto exercitationem, at minima provident corrupti aliquam cum nobis sed repudiandae illum, perferendis tempora quidem quam repellendus tenetur.</p>
+        <section class="posts">
+            <div class="posts-wrapper">
+                <article class="post-item">
+                    <img class="post-img" scr="./img/1 1.jpg" alt="">
+                    <h3 class="post-subtitle">LIFESTYLE</h3>
+                    <h2 class="post-title">More than just a music festival</h2>
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laboriosam cumque aspernatur iusto exercitationem, at minima provident corrupti aliquam cum nobis sed repudiandae illum, perferendis tempora quidem quam repellendus tenetur.</p>
                 </article>
 
-                <article>
-                    <img src="./img/1 2.jpg" alt="">
-                    <h3>LIFESTYLE</h3>
-                    <h2>Life tastes better with coffee</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga earum sit ad nobis asperiores minus at consequatur officiis veritatis. Sequi repellendus a vitae harum perferendis incidunt veritatis facilis aperiam.</p>
+                <article class="post-item">
+                    <img class="post-img" src="./img/1 2.jpg" alt="">
+                    <h3 class="post-subtitle">LIFESTYLE</h3>
+                    <h2 class="post-title">Life tastes better with coffee</h2>
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fuga earum sit ad nobis asperiores minus at consequatur officiis veritatis. Sequi repellendus a vitae harum perferendis incidunt veritatis facilis aperiam.</p>
                 </article>
 
-                <article>
-                    <img src="./img/2 1.jpg" alt="">
-                    <h3>PHOTODIARY</h3>
-                    <h2>American dream</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam commodi placeat velit dolorem necessitatibus, esse aperiam architecto assumenda dignissimos sapiente modi. Necessitatibus iure doloremque mollitia, blanditiis voluptatem saepe totam?</p>
+                <article class="post-item">
+                    <img class="post-img" src="./img/2 1.jpg" alt="">
+                    <h3 class="post-img">PHOTODIARY</h3>
+                    <h2 class="post-title">American dream</h2>
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam commodi placeat velit dolorem necessitatibus, esse aperiam architecto assumenda dignissimos sapiente modi. Necessitatibus iure doloremque mollitia, blanditiis voluptatem saepe totam?</p>
                 </article>
 
-                <article>
-                    <img src="./img/2 2.jpg" alt="">
-                    <h3>PHOTODIARY</h3>
-                    <h2>A day exploring the Alps</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt illum ipsum id, ipsa nemo repellendus velit, odit fugiat odio consequuntur. Praesentium atque id corporis distinctio minus omnis odio quia.</p>
+                <article class="post-item">
+                    <img class="post-img" src="./img/2 2.jpg" alt="">
+                    <h3 class="post-subtitle">PHOTODIARY</h3>
+                    <h2 class="post-title">A day exploring the Alps</h2>
+                    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sunt illum ipsum id, ipsa nemo repellendus velit, odit fugiat odio consequuntur. Praesentium atque id corporis distinctio minus omnis odio quia.</p>
                 </article>
 
-                <article>
-                    <img src="./img/3 1.jpg" alt="">
-                    <h3>MUSIC</h3>
-                    <h2>Top 10 song for running</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo a repellat tempora perspiciatis voluptatibus quisquam expedita, qui at officiis vel, ipsa molestiae aperiam repudiandae illo iusto sunt? Expedita, nulla! Asperiores?</p>
+                <article class="post-item">
+                    <img class="post-img" src="./img/3 1.jpg" alt="">
+                    <h3 class="post-subtitle">MUSIC</h3>
+                    <h2 class="post-title">Top 10 song for running</h2>
+                    <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo a repellat tempora perspiciatis voluptatibus quisquam expedita, qui at officiis vel, ipsa molestiae aperiam repudiandae illo iusto sunt? Expedita, nulla! Asperiores?</p>
                 </article>
 
-                <article>
-                    <img src="./img/4 1.jpg" alt="">
-                    <h3>MUSIC</h3>
-                    <h2>Cold winter days</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur id aliquid maxime, eligendi repellat possimus cum, aliquam explicabo amet nobis unde, quod cumque sint. Labore saepe architecto dolores voluptas assumenda!</p>
+                <article class="post-item">
+                    <img class="post-img" src="./img/4 1.jpg" alt="">
+                    <h3 class="post-subtitle">MUSIC</h3>
+                    <h2 class="post-title">Cold winter days</h2>
+                    <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur id aliquid maxime, eligendi repellat possimus cum, aliquam explicabo amet nobis unde, quod cumque sint. Labore saepe architecto dolores voluptas assumenda!</p>
                 </article>
             </div>
             <button type="button">
