@@ -12,7 +12,11 @@ body{
     font-weight: 400;
     color: var(--dark-grey);
 }
-
+.container{
+    width: 906px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .navigation-link{
     color: var(--nav-color);
     text-decoration: none;
@@ -31,6 +35,8 @@ body{
     font-weight: 300;
     color: var(--light-gray);
     font-size: 14px;
+    margin-top: 62px;
+    margin-bottom: 32px;
 }
 .post-title{
     font-weight: 400;
@@ -38,4 +44,37 @@ body{
 }
 .post-text{
     line-height: 1.35;
+}
+.button{
+    border: 1px solid var(--dark-grey);
+    display: block;
+    margin: 0 auto;   
+    background: none;
+    cursor: pointer;
+    padding: 20px 48px;
+    color: var(--dark-grey);
+}
+.post-item{
+    width: 420px;
+    margin-bottom: 130px ;
+}
+.header{
+    padding-top: 71px;
+    padding-bottom: 92px
+}
+.navigation-link:not(:last-child){
+    margin-right: 99px;
+}
+.posts{
+    margin-bottom: 66px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.posts-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
